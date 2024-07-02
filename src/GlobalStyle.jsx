@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        width: 100vw;
+        width: 100%;
         height: 100vh;
     }
 
@@ -34,6 +34,7 @@ export const GlobalStyle = createGlobalStyle`
         --color-dark: #000;
 
         --border-radius: 1rem;
+        --border-radius2: .5rem;
 
         --transition-slow: all 200ms ease;
     }

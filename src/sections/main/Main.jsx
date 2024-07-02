@@ -6,7 +6,7 @@ import ButtonContainer from '../../components/button/Button'
 
 const Main = () => {
   return (
-    <MainContainer>
+    <MainContainer id='home'>
       <MainIntroduction>
         <div>
           <IntroductionTitle>Renan Lazoti</IntroductionTitle>

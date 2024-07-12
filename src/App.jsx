@@ -1,4 +1,5 @@
 import About from './sections/about/About'
+import Contact from './sections/contact/Contact'
 import Education from './sections/education/Education'
 import Header from './sections/header/Header'
 import Main from './sections/main/Main'
@@ -14,6 +15,7 @@ function App() {
       <Education />
       <Skills />
       <Projects />
+      <Contact />
     </>
   )
 }

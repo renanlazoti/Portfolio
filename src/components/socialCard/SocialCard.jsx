@@ -1,8 +1,8 @@
 import { CardContainer } from "./SocialCard.style";
 
-const SocialCard = ({ icon: Icon}) => {
+const SocialCard = ({ icon: Icon, socialLink}) => {
   return (
-    <CardContainer>
+    <CardContainer href={socialLink} target="_blank">
         <Icon />
     </CardContainer>
   )

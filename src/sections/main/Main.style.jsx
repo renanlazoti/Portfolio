@@ -6,6 +6,7 @@ export const MainContainer = styled.main`
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    padding-top: 5rem;
 `
 
 export const MainIntroduction = styled.div`

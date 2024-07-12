@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.a`
     width: 4rem;
     display: flex;
     align-items: center;

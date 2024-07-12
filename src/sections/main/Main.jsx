@@ -14,8 +14,11 @@ const Main = () => {
         </div>
         <ButtonContainer>Download CV</ButtonContainer>
         <IntroductionSocials>
-          {data.map((icon) => (
-            <SocialCard icon={icon.icon} />
+          {data.map((item) => (
+            <SocialCard
+              icon={item.icon}
+              socialLink={item.socialLink}  
+            />
           ))}
         </IntroductionSocials>
       </MainIntroduction>

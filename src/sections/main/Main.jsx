@@ -1,8 +1,18 @@
 import cartoon from '../../assets/cartoon.svg'
 import data from './data'
 import SocialCard from '../../components/socialCard/SocialCard'
-import { MainContainer, MainIntroduction, MainImg, IntroductionTitle, IntroductionSubtitle, IntroductionSocials } from './Main.style'
-import ButtonContainer from '../../components/button/Button'
+import { 
+  MainContainer, 
+  MainIntroduction, 
+  MainImg, 
+  IntroductionTitle, 
+  IntroductionSubtitle, 
+  IntroductionSocials, 
+  MainButtons, 
+  LinkAbout, 
+  LinkCv 
+} from './Main.style'
+import curriculo from '../../assets/curriculo.pdf'
 
 const Main = () => {
   return (
@@ -12,7 +22,10 @@ const Main = () => {
           <IntroductionTitle>Renan Lazoti</IntroductionTitle>
           <IntroductionSubtitle>Desenvolvedor Full-Stack</IntroductionSubtitle>
         </div>
-        <ButtonContainer>Download CV</ButtonContainer>
+        <MainButtons>
+          <LinkCv href={curriculo} download>Download CV</LinkCv>
+          <LinkAbout href="#about">Sobre mim</LinkAbout>
+        </MainButtons>
         <IntroductionSocials>
           {data.map((item) => (
             <SocialCard

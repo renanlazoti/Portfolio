@@ -1,5 +1,8 @@
 import data from "./data"
-import { NavbarList, NavbarListItem } from "./Navbar.style"
+import { 
+  NavbarList, 
+  NavbarListItem 
+} from "./Navbar.style"
 
 const Navbar = () => {
   return (

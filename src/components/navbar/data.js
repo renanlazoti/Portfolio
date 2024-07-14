@@ -1,30 +1,30 @@
 const data = [
     {
-        itemName:'HOME',
+        itemName:'INÍCIO',
         itemLink:'#home'
     },
     {
-        itemName:'ABOUT',
+        itemName:'SOBRE',
         itemLink:'#about'
     },
     {
-        itemName:'EDUCATION',
+        itemName:'EDUCAÇÃO',
         itemLink:'#education'
     },
     {
-        itemName:'<rl />',
+        itemName:'<renan />',
         itemLink:'#home'
     },
     {
-        itemName:'SKILLS',
+        itemName:'HABILIDADES',
         itemLink:'#skills'
     },
     {
-        itemName:'PROJECTS',
+        itemName:'PROJETOS',
         itemLink:'#projects'
     },
     {
-        itemName:'CONTACT',
+        itemName:'CONTATO',
         itemLink:'#contact'
     },
 ]

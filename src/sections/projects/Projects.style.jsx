@@ -15,6 +15,16 @@ export const ProjectsContent = styled.div`
     gap: 2rem;
 `
 
+export const GithubLink = styled.a`
+    text-decoration: underline;
+    font-weight: bold;
+    transition: var(--transition-slow);
+
+    &:hover {
+        color: var(--color-primary);
+    }
+`
+
 export const ProjectsLinks = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);

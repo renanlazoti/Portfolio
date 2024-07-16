@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const EducationContainer = styled.section`
   width: 100%;
-  height: calc(100vh - 6rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5rem;
 `;
 
 export const Formations = styled.div`

@@ -18,5 +18,4 @@ export const ContactTitle = styled.div`
 export const ContactLinks = styled.div`
     display: flex;
     gap: 3rem;
-    
 `

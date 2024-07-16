@@ -10,10 +10,12 @@ export const Cards = styled.div`
     border-bottom: .2rem solid var(--color-secondary);
     border-radius: var(--border-radius);
     cursor: pointer;
+    transition: var(--transition-slow);
 
     svg {
         width: 2.2rem;
         height: 2.2rem;
+        transition: var(--transition-slow);
     }
 
     p {
@@ -23,7 +25,6 @@ export const Cards = styled.div`
     &:hover {
         transform: scale(1.1);
         border-bottom: .2rem solid var(--color-primary);
-        transition: var(--transition-slow);
     }
 
     &:active {

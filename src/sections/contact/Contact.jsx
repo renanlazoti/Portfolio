@@ -1,5 +1,9 @@
 import SocialCard from '../../components/socialCard/SocialCard'
-import { ContactContainer, ContactTitle, ContactLinks } from './Contact.style'
+import {
+  ContactContainer, 
+  ContactTitle, 
+  ContactLinks 
+} from './Contact.style'
 import data from './data'
 
 const Contact = () => {

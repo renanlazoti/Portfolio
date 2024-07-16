@@ -9,10 +9,12 @@ export const ExperienceCard = styled.div`
     align-items: center;
     border-radius: var(--border-radius2);
     gap: .8rem;
+    transition: var(--transition-slow);
     
     svg {
         width: 2rem;
         height: 2rem;
+        transition: var(--transition-slow);
     }
 
     p {
@@ -22,12 +24,10 @@ export const ExperienceCard = styled.div`
     
     &:hover {
         border-bottom: .2rem solid var(--color-primary);
-        transition: var(--transition-slow);
         cursor: pointer;
 
         svg {
             color: var(--color-primary);
-            transition: var(--transition-slow);
         }
     }
 

@@ -9,6 +9,7 @@ export const CardContainer = styled.a`
     padding: .7rem;
     border-bottom: .3rem solid var(--color-secondary);
     border-radius: var(--border-radius2);
+    transition: var(--transition-slow);
 
     svg {
         width: 2.5rem;
@@ -17,8 +18,11 @@ export const CardContainer = styled.a`
 
     &:hover {
         cursor: pointer;
-        transition: var(--transition-slow);
         border-bottom: .3rem solid var(--color-primary);
+    }
+
+    &:active {
+        background-color: var(--color-secondary);
     }
 `
 

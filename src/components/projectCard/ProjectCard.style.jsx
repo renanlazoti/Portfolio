@@ -9,6 +9,7 @@ export const Project = styled.div`
     flex-direction: column;
     border-radius: var(--border-radius);
     border-bottom: .2rem solid var(--color-secondary);
+    transition: var(--transition-slow);
 
     img {
         width: 100%;
@@ -32,7 +33,6 @@ export const Project = styled.div`
     }
 
     &:hover {
-        transition: var(--transition-slow);
         border-bottom: .2rem solid var(--color-primary);
     }
 `

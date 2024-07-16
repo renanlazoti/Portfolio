@@ -10,6 +10,7 @@ export const Formation = styled.div`
   padding: 4rem 0px;
   border-radius: var(--border-radius);
   border-bottom: .3rem solid var(--color-secondary);
+  transition: var(--transition-slow);
 
   h2 {
     color: var(--color-primary);
@@ -26,12 +27,12 @@ export const Formation = styled.div`
     gap: 0.3rem;
     color: rgba(15, 15, 15, 0.568);
   }
-
+  
   svg {
     width: 1.3rem;
     height: 1.3rem;
   }
-
+  
   &:before {
     content: "";
     position: absolute;
@@ -44,14 +45,16 @@ export const Formation = styled.div`
 
   &:hover {
     transform: scale(1.1);
-    transition: var(--transition-slow);
     cursor: pointer;
     border-bottom: .3rem solid var(--color-primary);
 
     &:before {
       top: -1.7rem;
-      transition: var(--transition-slow);
       background-color: var(--color-primary);
     }
+  }
+
+  &:active {
+    background-color: var(--color-secondary);
   }
 `

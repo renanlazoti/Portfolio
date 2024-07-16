@@ -17,15 +17,15 @@ export const GlobalStyle = createGlobalStyle`
         height: 100vh;
     }
 
+    section {
+        padding: 12rem 0;
+        margin: 0 auto;
+    }
+
     a {
         text-decoration: none;
         color: inherit;
     }
-
-    li {
-        list-style: none;
-    }
-
 
     :root{
         --color-primary: #407BFF;

@@ -16,7 +16,7 @@ export const MainContainer = styled.main`
     }
 
     @media (max-width: 658px) {
-        padding: 0 4rem;
+        padding: 6rem 4rem;
         gap: 1rem;
     }
 `

@@ -17,6 +17,10 @@ export const HeaderContainer = styled.header`
     @media (max-width: 1024px) {
         border-bottom: none;
         justify-content: flex-start;
-        padding-left: 1rem;
+        padding-left: .5rem;
+    }
+
+    @media (max-width: 658px) {
+       height: 5rem;
     }
 `

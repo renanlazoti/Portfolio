@@ -13,11 +13,7 @@ export const Project = styled.div`
 
     img {
         width: 100%;
-        height: auto;
-    }
-
-    p {
-        text-align: justify;
+        border-radius: var(--border-radius);
     }
 
     a {

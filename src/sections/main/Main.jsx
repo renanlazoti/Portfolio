@@ -5,8 +5,6 @@ import {
   MainContainer, 
   MainIntroduction, 
   MainImg, 
-  IntroductionTitle, 
-  IntroductionSubtitle, 
   IntroductionSocials, 
   MainButtons, 
   LinkAbout, 
@@ -19,8 +17,8 @@ const Main = () => {
     <MainContainer id='home'>
       <MainIntroduction>
         <div>
-          <IntroductionTitle>Renan Lazoti</IntroductionTitle>
-          <IntroductionSubtitle>Desenvolvedor Full-Stack</IntroductionSubtitle>
+          <h1>Renan Lazoti</h1>
+          <h2>Desenvolvedor Full-Stack</h2>
         </div>
         <MainButtons>
           <LinkCv href={curriculo} download>Download CV</LinkCv>
@@ -29,6 +27,7 @@ const Main = () => {
         <IntroductionSocials>
           {data.map((item) => (
             <SocialCard
+              key={item.id}
               icon={item.icon}
               socialLink={item.socialLink}  
             />

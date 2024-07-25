@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.section`
     width: 80%;
+    
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
 `
 
 export const AboutContent = styled.div`
@@ -16,13 +20,24 @@ export const AboutInformations = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
-
-    h2 {
-        font-size: 2rem;
-    }
+    animation-name: slide-top;
+    animation-duration: 2s;
 
     p {
         text-align: justify;
+
+        strong {
+            color: var(--color-primary);
+        }
+    }
+
+    @media (max-width: 1024px) {
+        width: 100%;
+        padding: 0 3rem;
+
+        h2 {
+            text-align: center;
+        }
     }
 
 `
@@ -36,6 +51,10 @@ export const AboutImage = styled.img`
     &:hover {
         transform: scale(1.1);
         border-bottom: .4rem solid var(--color-primary);
+    }
+
+    @media (max-width: 1024px) {
+        display: none;
     }
     
 `

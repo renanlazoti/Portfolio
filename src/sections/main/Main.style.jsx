@@ -7,35 +7,65 @@ export const MainContainer = styled.main`
     justify-content: center;
     gap: 5rem;
     padding-top: 5rem;
+    animation-name: slide-top;
+    animation-duration: 2s;
+
+    @media (max-width: 1000px) {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    @media (max-width: 658px) {
+        padding: 0 4rem;
+        gap: 1rem;
+    }
 `
 
 export const MainIntroduction = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
+    @media (max-width: 1000px) {
+        text-align: center;
+    }
 `
 
 export const MainButtons = styled.div`
     display: flex;
     gap: 1rem;
+
+    @media (max-width: 1000px) {
+        justify-content: center;
+    }
+
+    @media (max-width: 658px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 `
 
 export const MainImg = styled.img`
     width: 37%;
-`
 
-export const IntroductionTitle = styled.h1`
-    font-size: 5rem;
-`
+    @media (max-width: 1000px) {
+        width: 45%;
+    }
 
-export const IntroductionSubtitle = styled.h2`
-    font-size: 2rem;
+    @media (max-width: 658px) {
+        width: 80%;
+    }
 `
 
 export const IntroductionSocials = styled.div`
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    @media (max-width: 1000px) {
+        justify-content: center;
+    }
 `
 
 export const LinkCv = styled.a`
@@ -58,6 +88,13 @@ export const LinkCv = styled.a`
         border: .2rem solid var(--color-primary);
         background-color: transparent;
     }
+
+    &:active {
+        cursor: grabbing;
+        color: var(--color-primary);
+        border: .2rem solid var(--color-primary);
+        background-color: transparent;
+    }
 `
 
 export const LinkAbout = styled.a`
@@ -73,9 +110,17 @@ export const LinkAbout = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
+    border: .2rem solid var(--color-secondary);;
 
     &:hover {
         cursor: pointer;
+        color: var(--color-primary);
+        background-color: transparent;
+        border: .2rem solid var(--color-secondary);
+    }
+
+    &:active {
+        cursor: grabbing;
         color: var(--color-primary);
     }
 `

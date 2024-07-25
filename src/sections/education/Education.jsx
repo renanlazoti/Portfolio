@@ -11,7 +11,13 @@ const Education = () => {
       <h2>Educação</h2>
       <Formations>
           {data.map((item) => (
-              <Formation course={item.course} school={item.school} date={item.date} situation={item.situation}/>            
+              <Formation 
+                key={item.id}
+                course={item.course} 
+                school={item.school} 
+                date={item.date} 
+                situation={item.situation}
+              />            
           ))}
       </Formations>
     </EducationContainer>

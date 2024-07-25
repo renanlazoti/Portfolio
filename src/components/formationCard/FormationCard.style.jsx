@@ -41,7 +41,13 @@ export const Formation = styled.div`
     height: 1rem;
     background-color: var(--color-secondary);
     border-radius: 50%;
+
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
+
+  
 
   &:hover {
     transform: scale(1.1);
@@ -56,5 +62,10 @@ export const Formation = styled.div`
 
   &:active {
     background-color: var(--color-secondary);
+    transition: var(--transition-slow);
+  }
+
+  @media (max-width: 1024px) {
+    width: 100%;
   }
 `

@@ -16,6 +16,7 @@ const Contact = () => {
         <ContactLinks>
           {data.map((item) => (
               <SocialCard
+                key={item.id}
                 icon={item.icon}
                 socialLink={item.socialLink}  
               />

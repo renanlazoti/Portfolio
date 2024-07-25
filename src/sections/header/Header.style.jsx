@@ -11,4 +11,12 @@ export const HeaderContainer = styled.header`
     border-bottom: .2rem solid var(--color-secondary);
     border-radius: var(--border-radius);
     z-index: 1000;
+    animation-name: appear;
+    animation-duration: 1s;
+
+    @media (max-width: 1024px) {
+        border-bottom: none;
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
 `

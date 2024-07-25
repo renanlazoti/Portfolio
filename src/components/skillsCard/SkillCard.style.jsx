@@ -29,5 +29,6 @@ export const Cards = styled.div`
 
     &:active {
         background-color: var(--color-secondary);
+        transition: var(--transition-slow);
     }
 `

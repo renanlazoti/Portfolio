@@ -16,6 +16,7 @@ const Projects = () => {
             <ProjectsLinks>
                 {data.map((item) => (
                     <ProjectCard 
+                        key={item.id}
                         imgProject={item.imgProject}
                         imgAltText={item.imgAltText}
                         projectName={item.projectName}

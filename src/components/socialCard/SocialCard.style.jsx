@@ -12,8 +12,8 @@ export const CardContainer = styled.a`
     transition: var(--transition-slow);
 
     svg {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     &:hover {
@@ -23,6 +23,7 @@ export const CardContainer = styled.a`
 
     &:active {
         background-color: var(--color-secondary);
+        transition: var(--transition-slow);
     }
 `
 

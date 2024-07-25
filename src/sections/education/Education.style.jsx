@@ -7,6 +7,11 @@ export const EducationContainer = styled.section`
   justify-content: center;
   align-items: center;
   gap: 5rem;
+
+  @media (max-width: 1024px) {
+    gap: 2rem;
+  }
+
 `;
 
 export const Formations = styled.div`
@@ -16,4 +21,11 @@ export const Formations = styled.div`
   gap: 6rem;
   border-top: dashed 0.2rem var(--color-secondary);
   padding: 2rem 0;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    border-top: none;
+    align-items: center;
+    padding: 0 5rem;
+  }
 `;

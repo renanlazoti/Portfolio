@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const ProjectsContainer = styled.section`
     width: 100%;
-    height: calc(100vh - 6rem);
     display: flex;
     justify-content: center;
 `
@@ -13,6 +12,10 @@ export const ProjectsContent = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+
+    p {
+        text-align: justify;
+    }
 `
 
 export const GithubLink = styled.a`
@@ -29,4 +32,13 @@ export const ProjectsLinks = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+
+    @media (max-width: 1350px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    @media (max-width: 940px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `

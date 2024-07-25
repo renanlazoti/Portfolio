@@ -35,6 +35,15 @@ export const Project = styled.div`
     &:hover {
         border-bottom: .2rem solid var(--color-primary);
     }
+
+    @media (max-width: 768px) {
+        width: 24rem;
+    }
+
+    @media (max-width: 440px) {
+        width: 20rem;
+        gap: 1.5rem;
+    }
 `
 
 export const UsedLanguages = styled.div`

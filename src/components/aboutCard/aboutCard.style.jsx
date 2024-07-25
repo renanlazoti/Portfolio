@@ -31,4 +31,9 @@ export const ExperienceCard = styled.div`
         }
     }
 
+    &:active {
+        background-color: var(--color-secondary);
+        transition: var(--transition-slow);
+    }
+
 `

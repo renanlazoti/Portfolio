@@ -8,7 +8,11 @@ const Skills = () => {
         <h2>Habilidades</h2>
         <SkillsGrid>
             {data.map((item) => (
-                <SkillCard icon={item.icon} languageName={item.name} />
+                <SkillCard 
+                  key={item.id}
+                  icon={item.icon} 
+                  languageName={item.name} 
+                />
             ))}
         </SkillsGrid>
     </SkillsContainer>

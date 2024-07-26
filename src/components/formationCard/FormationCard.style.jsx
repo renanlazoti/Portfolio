@@ -51,7 +51,6 @@ export const Formation = styled.div`
 
   &:hover {
     transform: scale(1.1);
-    cursor: pointer;
     border-bottom: .3rem solid var(--color-primary);
 
     &:before {

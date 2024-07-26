@@ -9,7 +9,6 @@ export const Cards = styled.div`
     padding: 2rem .8rem;
     border-bottom: .2rem solid var(--color-secondary);
     border-radius: var(--border-radius);
-    cursor: pointer;
     transition: var(--transition-slow);
 
     svg {

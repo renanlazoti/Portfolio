@@ -1,10 +1,10 @@
-import { Project, UsedLanguages } from './ProjectCard.style'
+import { Project, UsedLanguages, ImgLinkProject, GitHubButton } from './ProjectCard.style'
 import { FaGithub } from "react-icons/fa"
 
 const ProjectCard = ({imgProject, imgAltText, projectName, projectDescription, projectLanguages, projectRepository}) => {
   return (
     <Project>
-        <img src={imgProject} alt={imgAltText} />
+        <ImgLinkProject href={projectRepository} target='_blank'><img src={imgProject} alt={imgAltText} /></ImgLinkProject>
         <h3>{projectName}</h3>
         <p>{projectDescription}</p>
         <UsedLanguages>
@@ -12,7 +12,7 @@ const ProjectCard = ({imgProject, imgAltText, projectName, projectDescription, p
               <p key={index}>{language}</p>
             ))}
         </UsedLanguages>
-        <a href={projectRepository} target='_blank'><FaGithub /> GitHub</a>
+        <GitHubButton href={projectRepository} target='_blank'><FaGithub /> GitHub</GitHubButton>
     </Project>
   )
 }

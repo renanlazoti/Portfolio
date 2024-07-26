@@ -19,6 +19,10 @@ export const MainContainer = styled.main`
         padding: 6rem 4rem;
         gap: 1rem;
     }
+    
+    @media (max-width: 400px) {
+        padding: 8rem 0;
+    }
 `
 
 export const MainIntroduction = styled.div`

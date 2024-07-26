@@ -12,6 +12,7 @@ export const ProjectsContent = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    text-align: justify;
 `
 
 export const GithubLink = styled.a`

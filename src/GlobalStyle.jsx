@@ -30,15 +30,19 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     section {
-        padding: 12rem 0;
+        padding: 11rem 0;
         margin: 0 auto;
 
-        @media (max-width: 1024px) {
-            padding: 9rem 0
+        @media (max-width: 1300px) {
+            padding: 9rem 0;
+        }
+
+        @media (max-width: 1100px) {
+            padding: 8rem 0;
         }
 
         @media (max-width: 768px) {
-            padding: 7.5rem 0;
+            padding: 7rem 0;
         }
     }
 

@@ -11,7 +11,6 @@ export const EducationContainer = styled.section`
   @media (max-width: 1024px) {
     gap: 2rem;
   }
-
 `;
 
 export const Formations = styled.div`

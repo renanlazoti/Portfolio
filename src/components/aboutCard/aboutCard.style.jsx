@@ -24,7 +24,6 @@ export const ExperienceCard = styled.div`
     
     &:hover {
         border-bottom: .2rem solid var(--color-primary);
-        cursor: pointer;
 
         svg {
             color: var(--color-primary);

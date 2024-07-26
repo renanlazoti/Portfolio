@@ -11,23 +11,6 @@ export const Project = styled.div`
     border-bottom: .2rem solid var(--color-secondary);
     transition: var(--transition-slow);
 
-    img {
-        width: 100%;
-        border-radius: var(--border-radius);
-    }
-
-    a {
-        background-color: var(--color-dark);
-        color: var(--color-light);
-        padding: .5rem 2rem;
-        border-radius: var(--border-radius);
-        display: flex;
-        gap: .5rem;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.1rem;
-    }
-
     &:hover {
         border-bottom: .2rem solid var(--color-primary);
     }
@@ -39,6 +22,13 @@ export const Project = styled.div`
     @media (max-width: 440px) {
         width: 20rem;
         gap: 1.5rem;
+    }
+`
+
+export const ImgLinkProject = styled.a`    
+    img {
+        width: 100%;
+        border-radius: var(--border-radius);
     }
 `
 
@@ -54,4 +44,16 @@ export const UsedLanguages = styled.div`
         border-radius: var(--border-radius);
         text-align: center;
     }
+`
+
+export const GitHubButton = styled.a `
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    padding: .5rem 2rem;
+    border-radius: var(--border-radius);
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
 `

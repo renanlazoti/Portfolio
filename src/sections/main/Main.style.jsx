@@ -16,13 +16,9 @@ export const MainContainer = styled.main`
     }
 
     @media (max-width: 658px) {
-        padding: 6rem 4rem;
-        gap: 1rem;
+        gap: .5rem;
     }
     
-    @media (max-width: 400px) {
-        padding: 8rem 0;
-    }
 `
 
 export const MainIntroduction = styled.div`
@@ -58,7 +54,7 @@ export const MainImg = styled.img`
     }
 
     @media (max-width: 658px) {
-        width: 80%;
+        width: 70%;
     }
 `
 

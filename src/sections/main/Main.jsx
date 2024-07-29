@@ -10,7 +10,7 @@ import {
   LinkAbout, 
   LinkCv 
 } from './Main.style'
-import curriculo from '../../assets/curriculo.pdf'
+import curriculo from '../../assets/CV - Renan Lazoti.pdf'
 
 const Main = () => {
   return (

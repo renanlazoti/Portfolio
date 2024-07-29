@@ -33,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 11rem 0;
         margin: 0 auto;
 
-        @media (max-width: 1300px) {
+        @media (max-width: 1400px) {
             padding: 9rem 0;
         }
 

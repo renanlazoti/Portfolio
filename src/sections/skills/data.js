@@ -1,8 +1,9 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaJava } from "react-icons/fa6";
+import { FaJava, FaGitAlt } from "react-icons/fa6";
 import { BsFiletypeSql } from "react-icons/bs";
-import { SiMysql, SiStyledcomponents  } from "react-icons/si";
+import { SiMysql  } from "react-icons/si";
+import { BiLogoSpringBoot } from "react-icons/bi";
 
 const data = [
     {
@@ -37,8 +38,8 @@ const data = [
     },
     {
         id: 6,
-        icon: FaReact, 
-        name: "React Native"
+        icon: BiLogoSpringBoot, 
+        name: "Spring Boot"
     },
     {
         id: 7,
@@ -52,8 +53,8 @@ const data = [
     },
     {
         id: 9,
-        icon: SiStyledcomponents, 
-        name: "Styled Components"
+        icon: FaGitAlt, 
+        name: "Git"
     },
 ]
 

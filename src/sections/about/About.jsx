@@ -30,10 +30,10 @@ const About = () => {
               Olá! Sou o Renan, técnico em informática e graduando em Análise e Desenvolvimento de Sistemas na USJT, apaixonado por utilizar meus conhecimentos para ajudar as pessoas através de melhorias em seus sistemas e no seu gerenciamento.
             </p>
             <p>
-              Através do curso Análise e Desenvolvimento de Sistemas pude me aprofundar em algumas linguagens de programação, banco de dados e praticar desenvolvimento de aplicações com base em problemas globais, e também soluções para problemas cotidianos de empresas. Estou atualmente seguindo o meu aprendizado em bancos de dados e linguagens de programação como <strong>Java</strong>, <strong>NodeJS</strong>, <strong>ReactJS</strong> e <strong>Java script</strong>.
+              Através do curso Análise e Desenvolvimento de Sistemas pude me aprofundar em algumas linguagens de programação, banco de dados e praticar desenvolvimento de aplicações com base em problemas globais, e também soluções para problemas cotidianos de empresas. Estou atualmente seguindo o meu aprendizado em bancos de dados, linguagens de programação e frameworks como <strong>Java</strong>, <strong>Spring Boot</strong> e <strong>MySQL</strong>
             </p>
             <p>
-              Um dos aspectos que me destaca é minha facilidade de aprendizado. Recebo feedbacks consistentemente positivos por minha capacidade de trabalho em equipe e avançar em projetos que estavam em impasse. Estou comprometido em continuar crescendo e contribuindo de forma significativa onde quer que eu esteja.
+              Um dos aspectos que me destaca é minha facilidade de aprendizado. Recebo feedbacks constantemente positivos por minha capacidade de trabalho em equipe e avançar em projetos que estavam em impasse. Estou comprometido em continuar crescendo e contribuindo de forma significativa onde quer que eu esteja.
             </p>
           </AboutInformations>
         </AboutContent>

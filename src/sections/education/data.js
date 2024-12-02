@@ -9,7 +9,8 @@ const data = [
         id: 1,
         course: "Análise e Desenvolvimento de Sistemas", 
         school: "Universidade São Judas Tadeu", 
-        date: "2023 - 2025", situation: "(Cursando)"
+        date: "02/2023 - 06/2025", 
+        situation: "(Cursando)"
     }
 ]
 
